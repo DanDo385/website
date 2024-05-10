@@ -1,4 +1,4 @@
-import React from 'react';
+// components/CertificatesCarousel.jsx
 import Slider from 'react-slick';
 
 const CertificatesCarousel = ({ certImages }) => {
