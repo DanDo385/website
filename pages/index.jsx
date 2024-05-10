@@ -20,7 +20,7 @@ const Home = () => {
           technology, especially in tokenizing various assets - a theme <br />
           central to my portfolio. I am excited playing a role in <br />
           advancing the decentralization of finance, striving to forge <br />
-          a fairer and more inclusive finacial system in the future.</h2>
+          a fairer and more inclusive financial system in the future.</h2>
                 
         <h2 className="font-poppins text-green-300 text-center text-2xl" style={{ fontFamily: 'poppins, sans-serif' }}></h2>
       <div className="mt-10">
