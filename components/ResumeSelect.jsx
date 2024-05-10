@@ -10,7 +10,7 @@ const ResumeSelect = () => {
     setSelectedOption(value);
 
     if (value === 'ipfs') {
-      window.open('https://scarlet-tricky-otter-220.mypinata.cloud/ipfs/QmXeDUD797Xn2CucXEvMwdUBhcm7NmecbEZ93vmuzRejHG/?pinataGatewayToken=DHaBY_FGWo0w5EQyPo9ps3a34mVrcK_ACxzKzvdUSk8WOUYm4sNOgrk8TmD-l4x0', '_blank');
+      window.open('https://scarlet-tricky-otter-220.mypinata.cloud/ipfs/QmQc5DA6NVp5jkovURvVTugSzKCSWvM16MptWziGUNcSnw/?pinataGatewayToken=DHaBY_FGWo0w5EQyPo9ps3a34mVrcK_ACxzKzvdUSk8WOUYm4sNOgrk8TmD-l4x0', '_blank');
     } else if (value === 'local') {
       window.location.href = '/Daniel-Magro-Resume.pdf';
     }

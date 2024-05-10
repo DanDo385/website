@@ -9,7 +9,7 @@ export default function Projects() {
       <Navbar />
       <div className="h-full bg-center bg-cover" style={{ backgroundImage: 'url(/github.jpg)' }}>
         <div className="flex flex-col items-center justify-center min-h-screen">
-          <h1 className="text-3xl font-bold text-black mb-10">Portfolio Projects</h1>
+          <h1 className="text-3xl font-bold text-green-400 mb-10">Portfolio Projects</h1>
           <div className="flex flex-wrap justify-center gap-4 p-4">
             {projects.map((project, index) => (
               <ProjectCard key={index} {...project} />

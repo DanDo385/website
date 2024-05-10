@@ -1,3 +1,4 @@
+// Navbar.tsx
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
@@ -26,7 +27,6 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col gap-4 mt-4">
           <Link href="/"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Home</span></Link>
-          <Link href="/blog"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Blog</span></Link>
           <Link href="/certifications"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Certifications</span></Link>
           <Link href="/education"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Education</span></Link>
           <Link href="/experience"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Experience</span></Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {/* Button for opening the sidebar */}
       <div className="sm:hidden p-4 absolute top-0 right-0 z-50" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
-        <Image src="/avatar.png" alt="Menu" width={32} height={32} className="w-8 h-8 rounded-full" />
+        <Image src="/avatar.png" alt="Menu" width={32} height={32} className="w-8 h-8 rounded-full"/>
       </div>
 
       {/* Navbar for larger screens */}
@@ -49,7 +49,6 @@ const Navbar = () => {
         <div className="flex-grow">
           <div className="flex justify-center gap-4">
             <Link href="/"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Home</span></Link>
-            <Link href="/blog"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Blog</span></Link>
             <Link href="/certifications"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Certifications</span></Link>
             <Link href="/education"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Education</span></Link>
             <Link href="/experience"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Experience</span></Link>
@@ -57,7 +56,8 @@ const Navbar = () => {
             <Link href="/resume"><span className="text-black hover:text-green-400 hover:bg-black p-2 cursor-pointer">Resume</span></Link>
           </div>
         </div>
-        <div></div>
+      <div>
+      </div>
       </div>
     </>
   );
