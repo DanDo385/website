@@ -1,4 +1,4 @@
-// pages/edu.tsx
+// pages/eduction.jsx 
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import EducationFormat from "@/components/EducationFormat";
