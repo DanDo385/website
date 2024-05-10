@@ -4,7 +4,7 @@
 
 /* Setting the default text color using Tailwind's utility class */
 @layer base {
-  body, p, span, h1, h2, h3, h4, h5, h6, a, button, input, textarea, select {
+  body, p, span, h1, h2, h2, h4, h5, h6, a, button, input, textarea, select {
     @apply text-green-400;
   }
 }

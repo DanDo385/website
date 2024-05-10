@@ -1,5 +1,4 @@
 // components/Carousel.jsx
-"use client"
 import ResponsiveCarousel from 'react-responsive-carousel';
 import Image from 'next/image';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Importing CSS

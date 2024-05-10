@@ -2,9 +2,21 @@
 import Head from 'next/head';
 import Carousel from '../components/Carousel';
 import Navbar from '../components/Navbar';
-import certImages from '../data/certs';
 
 const Certs = () => {
+  const certImages = [
+    '/certs/rutgers.jpg',
+    '/certs/udemy.jpg',
+    '/certs/udemy2.jpg',
+    '/certs/dappu.jpg',
+    '/certs/upenn.jpg',
+    '/certs/duke-full.jpg',
+    '/certs/insead-full.jpg',
+    '/certs/cryptography.jpg',
+  ];
+
+  console.log(certImages);
+
   return (
     <>
       <Navbar />
@@ -19,4 +31,3 @@ const Certs = () => {
 };
 
 export default Certs;
-
