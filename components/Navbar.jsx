@@ -1,5 +1,3 @@
-// Navbar.tsx
-"use client"
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
@@ -39,7 +37,7 @@ const Navbar = () => {
 
       {/* Button for opening the sidebar */}
       <div className="sm:hidden p-4 absolute top-0 right-0 z-50" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
-        <Image src="/avatar.png" alt="Menu" width={32} height={32} className="w-8 h-8 rounded-full"/>
+        <Image src="/avatar.png" alt="Menu" width={32} height={32} className="w-8 h-8 rounded-full" />
       </div>
 
       {/* Navbar for larger screens */}
